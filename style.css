@@ -1,0 +1,133 @@
+/* General Layout */
+body {
+    background-color: #fef6e4;
+    font-family: 'Poppins', sans-serif;
+    color: #001858;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* ID Selector - Main Heading */
+  #main-heading {
+    font-family: 'Playfair Display', serif;
+    color: #f582ae;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Intro Paragraph */
+  .intro {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #001858;
+    max-width: 700px;
+    line-height: 1.5;
+  }
+  
+  /* Section Heading */
+  .section-heading {
+    font-size: 24px;
+    color: #f582ae;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Content Box */
+  .content-box {
+    border: 2px dashed #8bd3dd;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Image Styling */
+  .styled-image {
+    width: 300px;
+    border: 5px solid #f582ae;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 15px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  /* Footer Text */
+  .footer-text {
+    font-size: 14px;
+    color: #8bd3dd;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Mobile (less than 600px) */
+  @media (max-width: 600px) {
+    .intro {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .section-heading {
+      font-size: 20px;
+    }
+  
+    .content-box {
+      padding: 15px;
+    }
+  
+    .styled-image {
+      width: 90%;
+    }
+  
+    footer {
+      padding: 10px;
+    }
+  }
+  
+  /* Tablet (600px to 900px) */
+  @media (min-width: 600px) and (max-width: 900px) {
+    .intro {
+      font-size: 18px;
+      max-width: 90%;
+    }
+  
+    .styled-image {
+      width: 80%;
+    }
+  
+    .content-box {
+      padding: 20px;
+    }
+  }
+  
+  /* Desktop (900px and above) */
+  @media (min-width: 900px) {
+    .intro {
+      font-size: 20px;
+      max-width: 80%;
+    }
+  
+    .styled-image {
+      width: 300px;
+    }
+  
+    .content-box {
+      padding: 25px;
+    }
+  }
+  
